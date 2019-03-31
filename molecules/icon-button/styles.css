@@ -1,0 +1,56 @@
+.iconButton {
+  position: relative;
+  background: transparent;
+  border: none;
+  height: 48px;
+  width: 48px;
+  padding: 0;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    & .hoverEffect {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      height: 48px;
+      width: 48px;
+      border-radius: 50%;
+      z-index: 1;
+      background: var(--color-gray14);
+    }
+  }
+}
+
+.icon {
+  position: relative;
+  z-index: 2;
+}
+
+.default {
+  &:hover {
+    &. hoverEffect {
+      opacity: 0.8;
+    }
+  }
+}
+
+.primary {
+  background: var(--color-primary);
+  color: var(--color-white);
+
+  & .icon {
+    color: var(--color-white);
+  }
+
+  &:hover {
+    & .hoverEffect {
+      opacity: 0.2;
+    }
+  }
+}
