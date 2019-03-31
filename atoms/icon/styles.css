@@ -14,5 +14,5 @@
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: 'liga';
-  color: var(--color-primary);
+  color: var(--icon-text-color);
 }

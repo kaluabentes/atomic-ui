@@ -11,7 +11,7 @@
   transition: 0.1s;
   height: 18px;
   transform-origin: left;
-  color: var(--color-gray6);
+  color: var(--input-placeholder-text-color);
 }
 
 .labelType {
@@ -24,33 +24,33 @@
   z-index: 2;
   border: none;
   border-top: 1px solid transparent;
-  border-bottom: 1px solid var(--color-gray6);
+  border-bottom: 1px solid var(--input-border-color);
   width: 100%;
   font-size: 16px;
   padding: 6px 0 7px;
-  color: var(--color-gray6);
+  color: var(--input-text-color);
   transition: 0.3s;
   height: 33px;
 
   &:focus {
     outline: none;
-    border-bottom: 2px solid var(--color-info);
+    border-bottom: 2px solid var(--input-focus-border-color);
   }
 }
 
 .error {
-  border-bottom: 2px solid var(--color-error);
+  border-bottom: 2px solid var(--input-error-border-color);
 }
 
 .errorMessage {
   margin-top: 10px;
-  color: var(--color-error);
+  color: var(--input-error-message-text-color);
 }
 
 .disabled {
   opacity: 0.8;
 
   & .input {
-    border-bottom: 1px dotted var(--color-gray10);
+    border-bottom: 1px dotted var(--input-error-message-text-color);
   }
 }

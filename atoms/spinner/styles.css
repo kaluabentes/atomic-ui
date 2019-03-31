@@ -1,7 +1,7 @@
 .spinner {
   position: relative;
   border-radius: 50%;
-  background: var(--color-gray14);
+  background: var(--spinner-background-color);
   opacity: 0.8;
 }
 
@@ -9,7 +9,7 @@
   height: 0;
   width: 0;
   border-radius: 50%;
-  border-right: 30px solid var(--color-primary);
+  border-right: 30px solid var(--spinner-thincircle-border-color);
   border-top: 30px solid transparent;
   border-left: 30px solid transparent;
   border-bottom: 30px solid transparent;
@@ -19,7 +19,7 @@
 .innerCircle {
   position: absolute;
   border-radius: 50%;
-  background: var(--color-white);
+  background: var(--spinner-innercircle-background-color);
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);

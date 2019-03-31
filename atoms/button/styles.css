@@ -20,24 +20,20 @@
 }
 
 .default {
-  border: 1px solid var(--color-primary);
-  color: var(--color-primary);
+  border: 1px solid var(--button-default-border-color);
+  color: var(--button-default-text-color);
 }
 
 .primary {
-  border: 2px solid var(--color-primary);
-  color: var(--color-white);
-  background: var(--color-primary);
+  border: 2px solid var(--button-primary-border-color);
+  color: var(--button-primary-text-color);
+  background: var(--button-primary-background-color);
 
   & .spinner {
     opacity: 1;
 
     & div:nth-child(2) {
-      background: var(--color-white);
-    }
-
-    & div:nth-child(2) {
-      background: var(--color-primary);
+      background: var(--button-primary-spinner-background-color);
     }
   }
 }

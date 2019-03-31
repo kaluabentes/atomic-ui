@@ -1,6 +1,6 @@
 .iconButton {
   position: relative;
-  background: transparent;
+  background: var(--iconbutton-background-color);
   border: none;
   height: 48px;
   width: 48px;
@@ -22,7 +22,7 @@
       width: 48px;
       border-radius: 50%;
       z-index: 1;
-      background: var(--color-gray14);
+      background: var(--iconbutton-hover-background-color);
     }
   }
 }
@@ -41,13 +41,13 @@
 }
 
 .primary {
-  background: var(--color-primary);
-  color: var(--color-white);
+  background: var(--iconbutton-primary-background-color);
+  color: var(--iconbutton-primary-text-color);
 
   & .icon {
-    color: var(--color-white);
+    color: var(--iconbutton-primary-icon-text-color);
   }
-
+  
   &:hover {
     & .hoverEffect {
       opacity: 0.2;
