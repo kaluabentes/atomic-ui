@@ -12,7 +12,7 @@ A set of reusable React components
 ```CSS
 :root {
   /* Typography */
-  --font-default: "Roboto", sans-serif;
+  --font-face: "Roboto", sans-serif;
 
   /* Colors */
   --color-primary: #ea1c2b;
