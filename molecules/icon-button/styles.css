@@ -34,7 +34,7 @@
 
 .default {
   &:hover {
-    &. hoverEffect {
+    & .hoverEffect {
       opacity: 0.8;
     }
   }
