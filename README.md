@@ -61,3 +61,9 @@ A set of reusable React components
   --iconbutton-primary-icon-text-color: var(--color-white);
 }
 ```
+
+## Icons
+
+To load the icons on the project insert the following tag on head:
+
+`<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">`
