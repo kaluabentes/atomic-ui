@@ -1,8 +1,10 @@
 .drawer {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
+  position: fixed;
+  height: 100%;
+  width: 100%;
   visibility: hidden;
+  top: 0;
+  z-index: 2;
 }
 
 .box {
@@ -22,6 +24,11 @@
   z-index: 1;
   opacity: 0;
   transition: 0.3s;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .open {

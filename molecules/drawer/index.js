@@ -6,12 +6,12 @@ import Paper from "_atoms/paper"
 
 import styles from "./styles.css"
 
-const Drawer = ({ isOpen, className, children }) => (
+const Drawer = ({ isOpen, className, children, onClose }) => (
   <div
     className={classNames(styles.drawer, className, { [styles.open]: isOpen })}
   >
     <Paper className={styles.box}>{children}</Paper>
-    <div className={styles.overlay} />
+    <button onClick={onClose} type="button" className={styles.overlay} />
   </div>
 )
 
