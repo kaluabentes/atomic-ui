@@ -1,22 +1,18 @@
 .button {
-  display: block;
   background: transparent;
   border: none;
   outline: none;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 500;
-  letter-spacing: 0.39998px;
+  letter-spacing: 1px;
   cursor: pointer;
-  letter-spacing: normal;
   font-family: var(--font-face);
   padding: 12px 20px;
   width: 100%;
-  border-radius: 6px;
   display: flex;
   justify-content: center;
-  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
-    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
   @media (--break-desktop) {
