@@ -9,7 +9,7 @@ import AppBar from '.'
 const children = (
   <Fragment>
     <IconButton type={IconButton.types.primary} iconType="menu" />
-    <Title>News</Title>
+    <Title>Details</Title>
     <IconButton type={IconButton.types.primary} iconType="face" />
   </Fragment>
 )
