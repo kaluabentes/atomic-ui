@@ -9,7 +9,7 @@
   letter-spacing: 0.39998px;
   cursor: pointer;
   letter-spacing: normal;
-  font-family: var(--font-default);
+  font-family: var(--font-face);
   padding: 12px 20px;
   width: 100%;
   border-radius: 6px;
