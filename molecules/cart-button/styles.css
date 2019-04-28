@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+  width: 48px;
+}
+
+.itemsCount {
+  position: absolute;
+  background: var(--color-orange);
+  color: var(--color-black);
+  z-index: 2;
+  font-size: 10px;
+  font-weight: bold;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+  right: 4px;
+  top: 4px;
+}
+
+.button {
+  position: relative;
+  z-index: 1;
+}
